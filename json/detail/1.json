@@ -5,12 +5,10 @@
     "subtitle": "Aplicación móvil y sitio web",
     "company" : "Textile Photos es un servicio descentralizado que ayuda a los usuarios a almacenar, administrar y compartir sus fotos",
     "project" : "Textile Photos es un servicio descentralizado que ayuda a los usuarios a almacenar, administrar y compartir sus fotos",
-    "imageMovil" :[{
-    	"image1" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
-        "image2" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
-        "image3" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
-        "image4" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
-    }],
-    "imageLast" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",  
+	"image1" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
+    "image2" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
+    "image3" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
+    "image4" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",
+    "imagedesktop" : "http://consorcioproyectoglobal.com/port/assets/facebook.svg",  
   }
 ]
