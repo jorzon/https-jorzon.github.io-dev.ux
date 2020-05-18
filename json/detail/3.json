@@ -1,15 +1,19 @@
 [
   {
-    "bgcolor" : "#fff700",
+    "bgcolor" : "#ff4b5d",
     "image" : "https://jorzon.github.io/port/assets/cel1.png",
     "title": "Fotos Textiles",
     "subtitle": "Aplicación móvil y sitio web",
     "company" : "Textile Photos is a decentralized service that helps users store, manage, and share your personal photos. We met this team in mid-2017 and we got stunned by their vision and what they want to accomplish to the world.",
     "project" : "During a long partnership, we designed and developed Textile Photos from scratch. We started with a discovery session where we explored the user needs, value proposal of the solution and main features to consider on the MVP (Minimum Viable Product). With all this information we moved to paper to found some ideas for the prototype. Once we validated the potential solution with real users we started working on the user interface, illustrations, motion design and finally, the front-end development.",
-    "image1" : "https://jorzon.github.io/port/assets/cel1.png",
-    "image2" : "https://jorzon.github.io/port/assets/cel2.png",
-    "image3" : "https://jorzon.github.io/port/assets/cel1.png",
-    "image4" : "https://jorzon.github.io/port/assets/cel2.png",
+    "imageMobile" :[
+        {
+            "image" : "https://jorzon.github.io/port/assets/cel1.png",
+            "image" : "https://jorzon.github.io/port/assets/cel2.png",
+            "image" : "https://jorzon.github.io/port/assets/cel1.png",
+            "image" : "https://jorzon.github.io/port/assets/cel2.png",
+        }
+    ],
     "imagedesktop" : "https://jorzon.github.io/port/assets/desktop.png"
   }
 ]
