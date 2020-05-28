@@ -1,20 +1,20 @@
 [
   {
-    "id" : 1,
-    "name": "hola",
-    "description" : "lorem lorem",
+    "id" : "latiendita",
+    "name": "LA TIENDITA",
+    "description" : "Aplicación móvil",
     "image" : "https://jorzon.github.io/port/assets/proyect1.png"
   },
   {
-    "id" : 2,
-    "name": "hola",
-    "description" : "lorem lorem",
+    "id" : "rutasperu",
+    "name": "RUTAS PERÚ",
+    "description" : "Aplicación móvil",
     "image" : "https://jorzon.github.io/port/assets/proyect2.png"
   },
   {
     "id" : 3,
-    "name": "hola",
-    "description" : "lorem lorem",
+    "name": "FUXION",
+    "description" : "Sitio web",
     "image" : "https://jorzon.github.io/port/assets/proyect3.png"
   },
   {
@@ -25,13 +25,13 @@
   },
   {
     "id" : 5,
-    "name": "hola",
-    "description" : "lorem lorem",
+    "name": "Covid19 Dashboard",
+    "description" : "Aplicación móvil",
     "image" : "https://jorzon.github.io/port/assets/proyect2.png"
   },
   {
     "id" : 6,
-    "name": "hola",
+    "name": "proyectox",
     "description" : "lorem lorem",
     "image" : "https://jorzon.github.io/port/assets/proyect1.png"
   }
