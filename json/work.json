@@ -12,25 +12,25 @@
     "image" : "https://jorzon.github.io/port/assets/proyect2.png"
   },
   {
-    "id" : 3,
+    "id" : "fuxion",
     "name": "FUXION",
     "description" : "Sitio web",
     "image" : "https://jorzon.github.io/port/assets/proyect3.png"
   },
   {
-    "id" : 4,
+    "id" : "ntgrupo",
     "name": "NT GRUPO",
     "description" : "Sitio web",
     "image" : "https://jorzon.github.io/port/assets/proyect4.png"
   },
   {
-    "id" : 5,
+    "id" : "covid19",
     "name": "Covid19 Dashboard",
     "description" : "Aplicación móvil",
     "image" : "https://jorzon.github.io/port/assets/proyect2.png"
   },
   {
-    "id" : 6,
+    "id" : "proyectox",
     "name": "proyectox",
     "description" : "lorem lorem",
     "image" : "https://jorzon.github.io/port/assets/proyect1.png"
