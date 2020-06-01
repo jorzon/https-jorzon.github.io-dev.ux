@@ -5,17 +5,12 @@
     "description" : "Aplicación móvil",
     "image" : "https://jorzon.github.io/port/assets/proyect1.png"
   },
-  {
-    "id" : "rutasperu",
-    "name": "RUTAS PERÚ",
-    "description" : "Aplicación móvil",
-    "image" : "https://jorzon.github.io/port/assets/proyect2.png"
-  },
+
   {
     "id" : "fuxion",
     "name": "FUXION",
     "description" : "Sitio web",
-    "image" : "https://jorzon.github.io/port/assets/proyect3.png"
+    "image" : "https://jorzon.github.io/port/assets/proyect2.png"
   },
   {
     "id" : "ntgrupo",
@@ -24,10 +19,16 @@
     "image" : "https://jorzon.github.io/port/assets/proyect4.png"
   },
   {
+    "id" : "rutasperu",
+    "name": "RUTAS PERÚ",
+    "description" : "Aplicación móvil",
+    "image" : "https://jorzon.github.io/port/assets/proyect3.png"
+  },
+  {
     "id" : "covid19",
     "name": "Covid19 Dashboard",
     "description" : "Aplicación móvil",
-    "image" : "https://jorzon.github.io/port/assets/proyect2.png"
+    "image" : "https://jorzon.github.io/port/assets/lagranja.png"
   },
   {
     "id" : "proyectox",
