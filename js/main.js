@@ -37,14 +37,15 @@ $(window).scroll(function(){
 
 
 
-window.onload = function() {
-	page.classList.remove('loader')
-	let child = document.querySelectorAll('.skeletor')
+// window.onload = function() {
+	
+// 	page.classList.remove('loader')
+// 	let child = document.querySelectorAll('.skeletor')
 
-	for (i = 0; i < child.length; i++) {
-	  child[i].classList.remove('skeletor')
-	}	
-}
+// 	for (i = 0; i < child.length; i++) {
+// 	  child[i].classList.remove('skeletor')
+// 	}	
+// }
 
 
 
