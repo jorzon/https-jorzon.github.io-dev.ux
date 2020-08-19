@@ -5,11 +5,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <!--link(href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap', rel='stylesheet')-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
     <meta name="title" content="Jorzon Delgado 🔥👽">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="css/common.css">
     <script src="js/library/jQuery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
     <style type="text/css">
       body.loader{
       	overflow: hidden;
@@ -68,7 +68,7 @@
                 </div>
                 <div class="item skeletor">
                   <ul>
-                    <li><a href="index.html">Proyectos</a></li>
+                    <li class="active"><a href="index.html">Proyectos</a></li>
                     <li><a href="about.html">Acerca de mí</a></li>
                     <!--li
                     a(href="#") Contactar
@@ -88,25 +88,27 @@
                 <div class="item">
                   <div class="close" id="close"></div>
                   <ul>
-                    <li><a href="index.html">Proyectos</a></li>
+                    <li class="active"><a href="index.html">Proyectos</a></li>
                     <li><a href="about.html">Acerca de mí</a></li>
-                    <li><a href="tel:+51936022870">Contactar</a></li>
+                    <li><a href="#">Contactar</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section3" id="bg"></section>
       </div>
       <div class="page2__main">
         <section class="section1">
           <div class="section1__align">
             <div class="section1__main">
-              <div class="item__btn"><span><a href="index.html">Volver</a></span></div>
+              <!--.item__btn
+              span
+              	a(href="index.html") Volver
+              -->
               <div class="item__list">
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena.png"></div>
+                  <div class="item__image"><img src="assets/app-tu-tiendita.png"></div>
                 </div>
               </div>
             </div>
@@ -118,7 +120,7 @@
               <div class="item__list">
                 <div class="item skeletor">
                   <div class="item__info">
-                    <h2>LA LEÑA	</h2>
+                    <h2>Tu tiendita		</h2>
                   </div>
                 </div>
               </div>
@@ -128,26 +130,25 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Intro</h2>
-                    <p>En "La Leña" servimos un pollo sin igual, el cual es cocinado lentamente con leña de eucalipto y que va de la granja a la mesa.</p>
+                    <p>Travella es para aquellos que no pueden imaginar su vida sin viajar y quieren aprovechar todas las ventajas de su tiempo.</p>
                   </div>
-                  <!--.item__info
-                  h2 Desafios
-                  p Si bien viajar puede ser una experiencia agradable y que expande la mente, hacer un seguimiento de todos los detalles necesarios para planificar un viaje puede ser tedioso.
-                  
-                  -->
+                  <div class="item__info">
+                    <h2>Desafios</h2>
+                    <p>Si bien viajar puede ser una experiencia agradable y que expande la mente, hacer un seguimiento de todos los detalles necesarios para planificar un viaje puede ser tedioso.</p>
+                  </div>
                   <div class="item__info">
                     <h2>Metas</h2>
-                    <p>Crear una plataforma web amigable que ofrezca una experiencia única de compra.</p>
+                    <p>Cree una aplicación de viaje colaborativa amigable que simplifique la planificación de un viaje.</p>
                   </div>
                 </div>
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Plataforma</h2>
-                    <p>Web</p>
+                    <p>Móvil / iOS</p>
                   </div>
                   <div class="item__info">
                     <h2>Herramientas</h2>
-                    <p>Lápiz y papel, Photoshop, Illustrator, Figma.</p>
+                    <p>Lápiz y papel, Photoshop, Illustrator, Gliffy, Axure, InVision, Principio</p>
                   </div>
                 </div>
               </div>
@@ -157,7 +158,9 @@
         <section class="section3">
           <div class="section3__align">
             <div class="section3__main">
-              <div class="item__list"><img src="assets/la-lena/kitchen-731351_1920.jpg"></div>
+              <div class="item__list">
+                <div class="item skeletor"></div>
+              </div>
             </div>
           </div>
         </section>
@@ -168,18 +171,18 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Entrevistas de usuario </h2>
-                    <p>Para determinar aún más y descubrir si realmente existió un problema. Se realizaron entrevistas con clientes potenciales.</p>
+                    <p>Para determinar aún más y descubrir si realmente existió un problema. Se realizaron entrevistas con personas que viajan con frecuencia por trabajo, vacaciones y descanso.</p>
                   </div>
                 </div>
                 <div class="item skeletor">
                   <div class="item__question">
                     <h2>Entender al usuario</h2>
-                    <p>Estudiantes, mamás, papás  o personas que van a la pollería.</p>
+                    <p>Jovenes, estudiantes, mamás, papás  o personas que hacen la compra de viveres para la casa.</p>
                     <div class="item__quest">
                       <ul>
-                        <li>¿Cuales son los problemas que encuentras?</li>
-                        <li>¿Como es un día tipico cuando viene a comer con la familia?</li>
-                        <!--li ¿Comoa te gustaria que fuese un día que venga?-->
+                        <li>¿Con que frecuencia, vas al mercado?</li>
+                        <li>¿Pagas con efectivo, o con tarjeta?</li>
+                        <li>¿Para cuantos días sueles comprar?</li>
                       </ul>
                     </div>
                   </div>
@@ -191,7 +194,7 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Objetivo</h2>
-                    <p>Quería escuchar experiencias de la vida real de las personas que van a la pollería.</p>
+                    <p>Quería escuchar experiencias de la vida real de cuándo las personas planean su viaje, si sabían a dónde querían ir y qué pasos tomaron para resolver el problema.</p>
                   </div>
                 </div>
                 <div class="item skeletor">
@@ -211,7 +214,7 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Usuario Persona</h2>
-                    <p>Basado en la investigación encontrada en el período de descubrimiento del proyecto, se desarrolló una persona, Mario Salas. Diseñar para Mario ayudó a tomar decisiones de diseño informadas, ya que siempre tuve en cuenta al usuario final.</p>
+                    <p>Basado en la investigación encontrada en el período de descubrimiento del proyecto, se desarrolló una persona, Dana Simpson. Diseñar para Dana ayudó a tomar decisiones de diseño informadas, ya que siempre tuve en cuenta al usuario final.</p>
                   </div>
                 </div>
                 <div class="item skeletor">
@@ -220,40 +223,37 @@
                   <div class="item__user">
                     <p>Usuario extremo</p>
                     <div class="user">
-                      <div class="user__image"><img src="assets/la-lena/persona.jpg"></div>
+                      <div class="user__image"><img src="assets/persona.png"></div>
                       <div class="user__name">
-                        <h2>Mario Salas</h2>
-                        <h3>Dorado, jugoso y crocante</h3>
+                        <h2>María Zegarra</h2>
+                        <h3>Soy la reina del mercado</h3>
                       </div>
                     </div>
                     <div class="userinfo">
-                      <p>Mario tiene 35 años, es abogado y trabaja en Surquillo, tiene un hijo de 12 años. Ambos aman el pollo a la brasa. Mario compra pollo a la brasa para ocasiones especiales.</p>
+                      <p>María tiene 32 años, es diseñadora y trabaja desde casa, vive con su esposo y sus 2 hijos, de 5 y 8 años, en el distrito de Cercado de Lima. María sigue muchos canales de cocina en youtube, y ama la comida marina.</p>
                       <div class="userinfo__info">
                         <h3>Necesidades</h3>
                         <ul>
-                          <!--li Comprar rápidamente.-->
+                          <li>Comprar rápidamente.</li>
                           <li>Encontrar ofertas.</li>
-                          <li>Que su pedido llegue caliente.</li>
-                          <!--li Encontrar sus marcas favoritas.-->
+                          <li>Encontrar sus marcas favoritas.</li>
                         </ul>
                       </div>
                       <div class="userinfo__info">
                         <h3>Frustaciones</h3>
                         <ul>
-                          <!--li Demora en atenderlo.-->
-                          <li>Problemas con el POS.</li>
-                          <li>No encontrar mesa libre.</li>
-                          <!--li Que su pedido llegue frio.-->
+                          <li>Largas colas.</li>
+                          <li>Tener que ir 2 ó 3 veces al mercado, si quiere comprar para varios días.</li>
+                          <li>Que no tengan sencillo.</li>
                         </ul>
                       </div>
                       <div class="userinfo__apps">
                         <h3>Tecnología</h3>
                         <ul>
-                          <li><img src="assets/waze.png"></li>
+                          <li><img src="assets/facebook_fb_media_social_icon_124262 1.png"></li>
                           <li><img src="assets/whatsapp.svg"></li>
-                          <li><img src="assets/nexflit.png"></li>
-                          <li><img src="assets/amazon.png"></li>
-                          <li><img src="assets/rappi.png"></li>
+                          <li><img src="assets/1384063.png"></li>
+                          <li><img src="assets/yt.png"></li>
                         </ul>
                       </div>
                     </div>
@@ -271,7 +271,7 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Escenario</h2>
-                    <p>Mario esta preparando una cena especial para el cumpleaños de su hijo, y sabe que su hijo, ama el pollo a la brasa de "La Leña". Se enteró que la pollería a lanzado su web con servicio de delivery y decide probarla.</p>
+                    <p>Dana está abrumada con todas las cosas que tiene que planear para sus viajes. Se enteró de la   aplicación Travella a través de un compañero de trabajo y decide probarla.</p>
                   </div>
                 </div>
               </div>
@@ -285,7 +285,7 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Análisis de la competencia</h2>
-                    <p>Usé este método para comparar otras plataformas en el mercado. El análisis me ayudó a encontrar diferentes características para agregar y cambiar al sitio existente.</p>
+                    <p>Usé este método para comparar otras aplicaciones en el mercado. El análisis me ayudó a encontrar diferentes características para agregar y cambiar al sitio existente.</p>
                   </div>
                 </div>
                 <!--.item
@@ -303,42 +303,42 @@
             <div class="section6__main">
               <div class="item__list" id="competencia">
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/norkys.jpeg"></div>
+                  <div class="item__image"><img src="assets/tumercado.jpeg"></div>
                   <div class="item__info">
-                    <h2>Norky's</h2>
+                    <h2>Tu Mercado</h2>
                     <ul>
-                      <li>Diseño:  1.8/5</li>
-                      <li>Usabilidad:  2/5</li>
+                      <li>Design:  4/5</li>
+                      <li>Design:  4/5</li>
                     </ul>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/rokys.jpeg"></div>
+                  <div class="item__image"><img src="assets/holacasero.jpeg"></div>
                   <div class="item__info">
-                    <h2>Rokys</h2>
+                    <h2>Hola Casero</h2>
                     <ul>
-                      <li>Diseño:  3.2/5</li>
-                      <li>Usabilidad:  3.5/5</li>
+                      <li>Design:  4/5</li>
+                      <li>Design:  4/5</li>
                     </ul>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/pardos.jpeg"></div>
+                  <div class="item__image"><img src="assets/wabi.jpeg"></div>
                   <div class="item__info">
-                    <h2>Pardos</h2>
+                    <h2>Wabi</h2>
                     <ul>
-                      <li>Diseño:  4/5</li>
-                      <li>Usabilidad:  4/5</li>
+                      <li>Design:  4/5</li>
+                      <li>Design:  4/5</li>
                     </ul>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/primos.jpeg"></div>
+                  <div class="item__image"><img src="assets/alobodega.png"></div>
                   <div class="item__info">
-                    <h2>Primos</h2>
+                    <h2>Aló Bodega</h2>
                     <ul>
-                      <li>Diseño:  3.8/5</li>
-                      <li>Usabilidad:  4/5</li>
+                      <li>Design:  4/5</li>
+                      <li>Design:  4/5</li>
                     </ul>
                   </div>
                 </div>
@@ -352,8 +352,8 @@
               <div class="item__list">
                 <div class="item skeletor">
                   <div class="item__info">
-                    <h2>Wireframes de baja fidelidad</h2>
-                    <p> Diseñe los wireframes de baja fidelidad y realicé  pruebas de usuarios  con varios clientes potenciales. El  propósito  de la prueba del usuario era  determinar  si era factible avanzar con los  wireframes de alta fidelidad.</p>
+                    <h2>Wireframes Lo-Fi</h2>
+                    <p> Creé los wireframes Lo-Fi y  realicé  pruebas de usuarios  con varios clientes potenciales. El  propósito  de la prueba del usuario era  determinar  si era factible avanzar con los  wireframes de alta fidelidad  con lo que teníamos en mente.</p>
                   </div>
                 </div>
               </div>
@@ -361,27 +361,27 @@
             <div class="section7__main">
               <div class="item__list" id="wireframes">
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/wiraframes-la-lena-inicio.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-home-wireframe.png"></div>
                   <div class="item__info">
                     <h2>Inicio</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/wiraframes-la-lena-categoria.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-nuevoproducto-wireframe.png"></div>
                   <div class="item__info">
-                    <h2>Detalle categoria</h2>
+                    <h2>Agregar producto al carrito</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/wiraframes-la-lena-compra.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-carrito-wireframe.png"></div>
                   <div class="item__info">
-                    <h2>Confirmación de pago</h2>
+                    <h2>Detalle carrito	</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/wiraframes-la-lena-carrito.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-mapa-wireframe.png"></div>
                   <div class="item__info">
-                    <h2>Detalle carrito</h2>
+                    <h2>Seguimiento de compra</h2>
                   </div>
                 </div>
               </div>
@@ -395,7 +395,7 @@
                 <div class="item skeletor">
                   <div class="item__info">
                     <h2>Prueba A / B</h2>
-                    <p>Al observar a nuestros usuarios probar el producto, identifiqué rápidamente áreas, donde la web no es simple o lo suficientemente clara.</p>
+                    <p>Al observar a nuestros usuarios de prueba usar y buscar en el producto o incluso simplemente imaginar su uso, identifiqué rápidamente áreas, donde la aplicación no es simple o lo suficientemente clara. También me comprometí a hacer de la simplicidad mi principal prioridad desde el primer día y filtré cada estructura metálica y copia a través de preguntas: ¿Es lo suficientemente simple? ¿Hay algo que podamos simplificar?</p>
                   </div>
                 </div>
               </div>
@@ -403,17 +403,15 @@
             <div class="section8__main">
               <div class="item__list" id="test">
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-a.png"></div>
+                  <div class="item__image"><img src="assets/tutiendita-a.png"></div>
                   <div class="item__info">
                     <h2>Opción A</h2>
-                    <h3>73%</h3>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-b.png"></div>
+                  <div class="item__image"><img src="assets/tutiendita-b.png"></div>
                   <div class="item__info">
                     <h2>Opción B</h2>
-                    <h3>27%</h3>
                   </div>
                 </div>
                 <!--.item
@@ -443,8 +441,8 @@
               <div class="item__list">
                 <div class="item skeletor">
                   <div class="item__info">
-                    <h2>Wireframes de alta fidelidad</h2>
-                    <p>Después de varias rondas de pruebas de usuarios en los wireframes de baja fidelidad, creé los wireframes de alta fidelidad de la web.</p>
+                    <h2>Revolución de diseño</h2>
+                    <p>Después de varias rondas de pruebas de usuarios en los wireframes de baja fidelidad, creé las pantallas Hi-Fi de la aplicación.</p>
                   </div>
                 </div>
               </div>
@@ -452,27 +450,27 @@
             <div class="section9__main">
               <div class="item__list" id="diseno">
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-inicio.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-home.png"></div>
                   <div class="item__info">
                     <h2>Inicio</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-detalle.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-carrito.png"></div>
                   <div class="item__info">
-                    <h2>Detalle categoria</h2>
+                    <h2>Detalle carrito	</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-carrito.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-resumen-compra.png"></div>
                   <div class="item__info">
-                    <h2>Detalle carrito</h2>
+                    <h2>Resumen de compra</h2>
                   </div>
                 </div>
                 <div class="item skeletor">
-                  <div class="item__image"><img src="assets/la-lena/web-la-lena-confirmacion.png"></div>
+                  <div class="item__image"><img src="assets/aplicacion-la-tiendita-recorrido.png"></div>
                   <div class="item__info">
-                    <h2>Confirmación de pago</h2>
+                    <h2>Seguimiento de compra</h2>
                   </div>
                 </div>
               </div>
@@ -489,7 +487,7 @@
                 <div class="item skeletor">
                   <ul>
                     <li><a href="https://www.linkedin.com/in/jorzon-delgado-3a399a131/" target="_blank"><img src="assets/linkedin.svg"></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=936022870&amp;text=Hola" target="_blank"><img src="assets/whatsapp.svg"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=51936022870&amp;text=Hola%2C%20que%20tal%3F" target="_blank"><img src="assets/whatsapp.svg"></a></li>
                     <!--li
                     a(href="#" target="_blank")
                     	img(src=path+'assets/asistencia1.svg')
