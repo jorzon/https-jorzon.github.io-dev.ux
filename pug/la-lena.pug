@@ -1,0 +1,395 @@
+extends includes/master
+
+block vars
+
+	- var script = 1;
+
+block content
+	.page2__main
+		section.section1
+			.section1__align
+				.section1__main
+					.item__btn
+						span
+							a(href="index.html") Volver
+					.item__list
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena.png')
+							
+		section.section2
+			.section2__align
+				.section2__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 LA LEÑA	
+				.section2__main
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Intro
+								p En "La Leña" servimos un pollo sin igual, el cual es cocinado lentamente con leña de eucalipto y que va de la granja a la mesa.
+
+							//.item__info
+								h2 Desafios
+								p Si bien viajar puede ser una experiencia agradable y que expande la mente, hacer un seguimiento de todos los detalles necesarios para planificar un viaje puede ser tedioso.
+
+							.item__info
+								h2 Metas
+								p Crear una plataforma web amigable que ofrezca una experiencia única de compra.
+
+						.item.skeletor
+							.item__info
+								h2 Plataforma
+								p Web
+
+							.item__info
+								h2 Herramientas
+								p Lápiz y papel, Photoshop, Illustrator, Figma.
+
+
+		section.section3
+			.section3__align
+				.section3__main
+					.item__list
+						img(src=path+'assets/la-lena/kitchen-731351_1920.jpg')
+							
+
+
+
+		section.section4
+			.section4__align
+				.section4__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Entrevistas de usuario 
+								p Para determinar aún más y descubrir si realmente existió un problema. Se realizaron entrevistas con clientes potenciales.
+						.item.skeletor
+							.item__question
+								h2 Entender al usuario
+								p Estudiantes, mamás, papás  o personas que van a la pollería.
+								.item__quest
+									ul
+										li ¿Cuales son los problemas que encuentras?
+										li ¿Como es un día tipico cuando viene a comer con la familia?
+										//li ¿Comoa te gustaria que fuese un día que venga?
+
+				.section4__main
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Objetivo
+								p Quería escuchar experiencias de la vida real de las personas que van a la pollería.
+
+
+						.item.skeletor
+							.item__info
+								h2 Proceso
+								p Todas las entrevistas se realizaron de manera informal. Trabajé en las preguntas de la encuesta y tomé notas momentos después de que terminara.
+
+		section.section5
+			.section5__align
+				.section5__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Usuario Persona
+								p Basado en la investigación encontrada en el período de descubrimiento del proyecto, se desarrolló una persona, Mario Salas. Diseñar para Mario ayudó a tomar decisiones de diseño informadas, ya que siempre tuve en cuenta al usuario final.
+						.item.skeletor
+							//.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+							.item__user
+								p Usuario extremo
+								.user
+									.user__image
+										img(src=path+'assets/la-lena/persona.jpg')
+									.user__name
+										h2 Mario Salas
+										h3 Dorado, jugoso y crocante
+
+								.userinfo
+									p Mario tiene 35 años, es abogado y trabaja en Surquillo, tiene un hijo de 12 años. Ambos aman el pollo a la brasa. Mario compra pollo a la brasa para ocasiones especiales.
+
+									.userinfo__info
+										h3 Necesidades
+										ul
+											//li Comprar rápidamente.
+											li Encontrar ofertas.
+											li Que su pedido llegue caliente.
+											//li Encontrar sus marcas favoritas.
+
+
+									.userinfo__info
+										h3 Frustaciones
+										ul
+											//li Demora en atenderlo.
+											li Problemas con el POS.
+											li No encontrar mesa libre.
+											//li Que su pedido llegue frio.
+
+
+									.userinfo__apps
+										h3 Tecnología
+										ul
+											li
+												img(src=path+'assets/waze.png')
+											li
+												img(src=path+'assets/whatsapp.svg')
+
+											li
+												img(src=path+'assets/nexflit.png')
+
+											li
+												img(src=path+'assets/amazon.png')
+
+											li
+												img(src=path+'assets/rappi.png')
+
+
+
+
+						//.item
+							.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+									
+				.section5__main
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Escenario
+								p Mario esta preparando una cena especial para el cumpleaños de su hijo, y sabe que su hijo, ama el pollo a la brasa de "La Leña". Se enteró que la pollería a lanzado su web con servicio de delivery y decide probarla.
+
+
+		section.section6
+			.section6__align
+				.section6__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Análisis de la competencia
+								p Usé este método para comparar otras plataformas en el mercado. El análisis me ayudó a encontrar diferentes características para agregar y cambiar al sitio existente.
+						//.item
+							.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+
+						//.item
+							.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+									
+				.section6__main
+					.item__list#competencia
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/norkys.jpeg')
+
+							.item__info
+								h2 Norky's
+								ul
+									li Diseño:  1.8/5
+									li Usabilidad:  2/5
+									//- li Positivo: ajaj
+									//- li Negativo: aqui 
+
+
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/rokys.jpeg')
+
+							.item__info
+								h2 Rokys
+								ul
+									li Diseño:  3.2/5
+									li Usabilidad:  3.5/5
+									//- li Positivo: ajaj
+									//- li Negativo: aqui 
+
+
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/pardos.jpeg')
+
+							.item__info
+								h2 Pardos
+								ul
+									li Diseño:  4/5
+									li Usabilidad:  4/5
+									//- li Positivo: ajaj
+									//- li Negativo: aqui 
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/primos.jpeg')
+
+							.item__info
+								h2 Primos
+								ul
+									li Diseño:  3.8/5
+									li Usabilidad:  4/5
+									//- li Positivo: ajaj
+									//- li Negativo: aqui 
+
+
+
+		
+		section.section7
+			.section7__align
+				.section7__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Wireframes de baja fidelidad
+								p  Diseñe los wireframes de baja fidelidad y realicé  pruebas de usuarios  con varios clientes potenciales. El  propósito  de la prueba del usuario era  determinar  si era factible avanzar con los  wireframes de alta fidelidad.
+
+
+
+									
+				.section7__main
+					.item__list#wireframes
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/wiraframes-la-lena-inicio.png')
+
+							.item__info
+								h2 Inicio
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/wiraframes-la-lena-categoria.png')
+
+							.item__info
+								h2 Detalle categoria
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/wiraframes-la-lena-compra.png')
+
+							.item__info
+								h2 Confirmación de pago
+
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/wiraframes-la-lena-carrito.png')
+
+							.item__info
+								h2 Detalle carrito
+
+
+						
+		
+
+		section.section8
+			.section8__align
+				.section8__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Prueba A / B
+								p Al observar a nuestros usuarios probar el producto, identifiqué rápidamente áreas, donde la web no es simple o lo suficientemente clara.
+
+									
+				.section8__main
+					.item__list#test
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-a.png')
+
+							.item__info
+								h2 Opción A
+								h3 73%
+
+
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-b.png')
+
+							.item__info
+								h2 Opción B
+								h3 27%
+								
+
+
+
+						//.item
+							.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+
+							.item__info
+								h2 Expedia
+
+						//.item
+							.item__image
+								img(src=path+'assets/aplicacion-la-tiendita.png')
+
+							.item__info
+								h2 Expedia
+
+
+		section.section9
+			.section9__align
+				.section9__header
+					.item__list
+						.item.skeletor
+							.item__info
+								h2 Wireframes de alta fidelidad
+								p Después de varias rondas de pruebas de usuarios en los wireframes de baja fidelidad, creé los wireframes de alta fidelidad de la web.
+
+									
+				.section9__main
+					.item__list#diseno
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-inicio.png')
+
+							.item__info
+								h2 Inicio
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-detalle.png')
+
+							.item__info
+								h2 Detalle categoria
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-carrito.png')
+
+							.item__info
+								h2 Detalle carrito
+
+
+
+						.item.skeletor
+							.item__image
+								img(src=path+'assets/la-lena/web-la-lena-confirmacion.png')
+
+							.item__info
+								h2 Confirmación de pago
+
+
+
+						
+
+						
+
+					.item__btn
+						span
+							a(href="index.html") Volver
+
+
+block javascript
+	script(type="text/javascript" src=path+'js/library/slick.min.js' charset="utf-8")
+	script(type='text/javascript' src='js/main.js')

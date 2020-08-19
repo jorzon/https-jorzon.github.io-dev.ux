@@ -37,7 +37,7 @@ $(window).scroll(function(){
 
 
 
-$(document).ready(function() {
+window.onload = function() {
 	
 	page.classList.remove('loader')
 	let child = document.querySelectorAll('.skeletor')
@@ -45,7 +45,7 @@ $(document).ready(function() {
 	for (i = 0; i < child.length; i++) {
 	  child[i].classList.remove('skeletor')
 	}	
-})
+}
 
 
 
