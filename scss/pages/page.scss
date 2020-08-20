@@ -1,9 +1,9 @@
 .page{
 	position: relative;
-	// &.loader{
-	// 	overflow: hidden;
-	// 	height: 100vh;
-	// }
+	&.loader{
+		overflow: hidden;
+		height: 100vh;
+	}
 	.up{
 		width: 38px;
 	    padding: 0px 0px;

@@ -12,7 +12,7 @@ if (rute.includes('about')) {
 	$('.page .page1__header .section2__main .item__list .item ul li:nth-child(1)').addClass('active')
 }
 
-// page.classList.add('loader')
+page.classList.add('loader')
 
 
 // for (i = 0; i < child.length; i++) {
@@ -20,32 +20,32 @@ if (rute.includes('about')) {
 // }
 
 
-$('.page .up').click(function(){
-	$('body,html').animate({
-		scrollTop: '0px'
-	}, 900);
-})
+// $('.page .up').click(function(){
+// 	$('body,html').animate({
+// 		scrollTop: '0px'
+// 	}, 900);
+// })
 
-$(window).scroll(function(){
-	if( $(this).scrollTop() > 0  ){
-		$('.page .up').slideDown(300);
-	} else {
-		$('.page .up').slideUp(300);
-	}
-})
-
-
+// $(window).scroll(function(){
+// 	if( $(this).scrollTop() > 0  ){
+// 		$('.page .up').slideDown(300);
+// 	} else {
+// 		$('.page .up').slideUp(300);
+// 	}
+// })
 
 
-// window.onload = function() {
+
+
+window.onload = function() {
 	
-// 	page.classList.remove('loader')
-// 	let child = document.querySelectorAll('.skeletor')
+	page.classList.remove('loader')
+	let child = document.querySelectorAll('.skeletor')
 
-// 	for (i = 0; i < child.length; i++) {
-// 	  child[i].classList.remove('skeletor')
-// 	}	
-// }
+	for (i = 0; i < child.length; i++) {
+	  child[i].classList.remove('skeletor')
+	}	
+}
 
 
 
