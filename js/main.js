@@ -12,7 +12,7 @@ if (rute.includes('about')) {
 	$('.page .page1__header .section2__main .item__list .item ul li:nth-child(1)').addClass('active')
 }
 
-page.classList.add('loader')
+// page.classList.add('loader')
 
 
 // for (i = 0; i < child.length; i++) {
@@ -37,15 +37,15 @@ page.classList.add('loader')
 
 
 
-window.onload = function() {
+// window.onload = function() {
 	
-	page.classList.remove('loader')
-	let child = document.querySelectorAll('.skeletor')
+// 	page.classList.remove('loader')
+// 	let child = document.querySelectorAll('.skeletor')
 
-	for (i = 0; i < child.length; i++) {
-	  child[i].classList.remove('skeletor')
-	}	
-}
+// 	for (i = 0; i < child.length; i++) {
+// 	  child[i].classList.remove('skeletor')
+// 	}	
+// }
 
 
 
