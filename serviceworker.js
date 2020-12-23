@@ -139,7 +139,10 @@ const CACHE = "v1_cache",
     "./assets/rosas-romero/web-rodas-categoria.png",
     "./assets/rosas-romero/web-rodas-detalle.png",
     "./assets/rosas-romero/web-rodas-formulario.png",
-    "./assets/rosas-romero/web-rodas-menu.png"
+    "./assets/rosas-romero/web-rodas-menu.png",
+
+    //files
+    "./assets/files/JorzonDelgadoCv.pdf"
   ];
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
