@@ -56,7 +56,7 @@ const CACHE = "v1_cache",
     "./assets/whatsapp.svg",
 
     //favicon
-    "./assets/ProgramadorFitness.png",
+    "./assets/jorzondelgado.png",
     "./assets/favicon.png",
 
     //bookpeople
