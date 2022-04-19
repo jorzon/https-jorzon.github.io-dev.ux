@@ -1,0 +1,37 @@
+[{
+        "title": "La Tiendita",
+        "image": "./app/assets/images/png/aplicacion-la-tiendita.png",
+        "type": "Aplicación",
+        "slug": "#/proyecto-la-tiendita"
+    },
+    {
+        "title": "Book People",
+        "image": "./app/assets/images/png/web-book-people.png",
+        "type": "Web",
+        "slug": "#/proyecto-book-people"
+    },
+    {
+        "title": "NT GRUPO",
+        "image": "./app/assets/images/png/web-ntgrupo.png",
+        "type": "Web",
+        "slug": "#/proyecto-nt-grupo"
+    },
+    {
+        "title": "La Leña",
+        "image": "./app/assets/images/png/aplicacion-la-lena.png",
+        "type": "Web",
+        "slug": "#/proyecto-la-lena"
+    },
+    {
+        "title": "NT FUTURA",
+        "image": "./app/assets/images/png/futura.png",
+        "type": "Web",
+        "slug": "#/proyecto-nt-futura"
+    },
+    {
+        "title": "Rodas Romero",
+        "image": "./app/assets/images/png/tributario.png",
+        "type": "Web",
+        "slug": "#/proyecto-rodas-romero"
+    }
+]
