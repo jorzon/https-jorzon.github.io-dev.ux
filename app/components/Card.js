@@ -4,18 +4,6 @@ export function Card(props) {
     $styles = document.getElementById('dynamic-style')
 
     $styles.innerHTML = `
-    @media (max-width:1025px) {
-        .page1__main  {
-            height: calc(100vh - 127px);
-            padding: 0 24px;
-        }
-    }
-    
-    @media (max-width:769px) {
-        .page1__main  {
-            height: calc(100vh - 146px)
-        }
-    }
     
     @media (max-width:650px) {
         .page1__main  {
@@ -190,7 +178,7 @@ export function Card(props) {
         width: 20px;
         height: 20px;
         background: red;
-        background: url(../app/assets/images/svg/proximo.svg) no-repeat;
+        background: url(./app/assets/images/svg/proximo.svg) no-repeat;
         background-size: 70%
     }
     
