@@ -166,7 +166,7 @@ export function About() {
         content: '';
         width: 78%;
         height: 10px;
-        background: url(../app/assets/images/svg/linea.svg) no-repeat;
+        background: url(./app/assets/images/svg/linea.svg) no-repeat;
         background-size: 100%;
         left: 0;
         right: 0;
@@ -246,7 +246,7 @@ export function About() {
     }
     
     .page3__main .section1__main .item__list .item__link span.type2:hover a:before {
-        background: url(../app/assets/images/svg/flecha-hacia-abajo_v2.svg);
+        background: url(./app/assets/images/svg/flecha-hacia-abajo_v2.svg);
         background-size: 100%
     }
     
@@ -258,7 +258,7 @@ export function About() {
     }
     
     .page3__main .section1__main .item__list .item__link span.type2 a:before {
-        background: url(../app/assets/images/svg/flecha-hacia-abajo.svg);
+        background: url(./app/assets/images/svg/flecha-hacia-abajo.svg);
         background-size: 100%
     }
     
@@ -277,7 +277,7 @@ export function About() {
         position: absolute;
         right: 20px;
         top: 12px;
-        background: url(../app/assets/images/svg/whatsapp.svg);
+        background: url(./app/assets/images/svg/whatsapp.svg);
         background-size: 100%
     }
     

@@ -40,7 +40,7 @@ export function CardDetail(props) {
         pointer-events: none;
         left: 30px;
         position: absolute;
-        background: url(../app/assets/images/svg/volver.svg) no-repeat;
+        background: url(./app/assets/images/svg/volver.svg) no-repeat;
         background-size: 100%
     }
     
@@ -59,7 +59,7 @@ export function CardDetail(props) {
         top: 10px;
         left: 30px;
         position: absolute;
-        background: url(../app/assets/images/svg/volver-w.svg) no-repeat;
+        background: url(./app/assets/images/svg/volver-w.svg) no-repeat;
         background-size: 100%
     }
     
@@ -113,7 +113,7 @@ export function CardDetail(props) {
         cursor: pointer;
         bottom: -55px;
         right: 0;
-        background: url(../app/assets/images/svg/flecha-hacia-abajo.svg) center center no-repeat;
+        background: url(./app/assets/images/svg/flecha-hacia-abajo.svg) center center no-repeat;
         background-size: 20px;
         margin: auto;
         border-radius: 50%;
@@ -1671,7 +1671,7 @@ export function CardDetail(props) {
         pointer-events: none;
         left: 30px;
         position: absolute;
-        background: url(../app/assets/images/svg/volver.svg) no-repeat;
+        background: url(./app/assets/images/svg/volver.svg) no-repeat;
         background-size: 100%
     }
     
@@ -1690,7 +1690,7 @@ export function CardDetail(props) {
         top: 10px;
         left: 30px;
         position: absolute;
-        background: url(../app/assets/images/svg/volver-w.svg) no-repeat;
+        background: url(./app/assets/images/svg/volver-w.svg) no-repeat;
         background-size: 100%
     }
     
