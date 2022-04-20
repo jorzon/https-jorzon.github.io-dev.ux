@@ -9,13 +9,8 @@ export async function Rute() {
 
     const location = window.location.hash,
         $main = document.getElementById('main'),
-        $loader = document.createElement('img')
-    $loader.setAttribute('src', './app/assets/images/loader.gif')
-    $loader.style.margin = 'auto'
-    $loader.style.paddingTop = '50px'
-    $loader.style.width = '60px'
+        $loader = document.getElementById('loader')
 
-    $main.appendChild($loader)
 
     $main.innerHTML = null
 
