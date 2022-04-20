@@ -4,6 +4,7 @@ const NAME = 'https://jorzon.github.io/wux',
     CARDS = `${SITE}/json/cards.json`,
     DETAIL = `${SITE}/json/`
 
+
 export default {
     NAME,
     DOMAIN,
