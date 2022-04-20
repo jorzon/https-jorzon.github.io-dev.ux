@@ -23,7 +23,7 @@ export async function Rute() {
                     html += Card(element)
                 });
                 $loader.style.display = 'none'
-                $main.innerHTML = html
+                $main.innerHTML += html
             }
         })
 
@@ -43,7 +43,7 @@ export async function Rute() {
             url: `${api.DETAIL}${location.slice(2)}.json`,
             cbSuccess: (detail) => {
                 $loader.style.display = 'none'
-                $main.innerHTML = CardDetail(detail)
+                $main.innerHTML += CardDetail(detail)
             }
         })
 
