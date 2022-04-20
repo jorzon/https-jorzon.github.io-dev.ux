@@ -1,15 +1,7 @@
 export function Main() {
-    const $main = document.createElement('div'),
-        $loader = document.createElement('img')
+    const $main = document.createElement('div')
     $main.id = 'main'
     $main.classList.add('page1__main')
-    $loader.setAttribute('src', './app/assets/images/loader.gif')
-    $loader.setAttribute('id', 'loader')
-    $loader.style.margin = 'auto'
-    $loader.style.paddingTop = '50px'
-    $loader.style.width = '60px'
-
-    $main.appendChild($loader)
-
+    $main.innerHTML = ` <img style="    width: 400px; margin: auto; display: inherit; padding-top: 50px;" src="app/assets/images/loader.gif"> `
     return $main
 }

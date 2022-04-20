@@ -8,11 +8,11 @@ import { CardDetail } from './CardDetail.js'
 export async function Rute() {
 
     const location = window.location.hash,
-        $main = document.getElementById('main'),
-        $loader = document.getElementById('loader')
+        $main = document.getElementById('main')
 
 
-    $main.innerHTML = null
+
+    //$main.innerHTML = null
 
     if (!location || location == '#/') {
         await ajax({
@@ -22,8 +22,8 @@ export async function Rute() {
                 cards.forEach(element => {
                     html += Card(element)
                 });
-                $loader.style.display = 'none'
-                $main.innerHTML += html
+                // $main.innerHTML = null
+                $main.innerHTML = html
             }
         })
 
@@ -32,7 +32,7 @@ export async function Rute() {
 
 
     } else if (location.includes('#/about')) {
-        $loader.style.display = 'none'
+        $main.innerHTML = null
         $main.appendChild(About())
         $(".page1__header .section1__main .item__list .item ul li:nth-child(2)").addClass("active")
         $(".page1__header .section2__main .item__list .item ul li:nth-child(2)").addClass("active")
@@ -42,8 +42,8 @@ export async function Rute() {
         await ajax({
             url: `${api.DETAIL}${location.slice(2)}.json`,
             cbSuccess: (detail) => {
-                $loader.style.display = 'none'
-                $main.innerHTML += CardDetail(detail)
+                $main.innerHTML = null
+                $main.innerHTML = CardDetail(detail)
             }
         })
 
