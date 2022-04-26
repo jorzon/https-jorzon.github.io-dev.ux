@@ -13,7 +13,7 @@ export function Header() {
                                     <div></div>
                                     <div></div>
                                     <div></div>
-                                </div><span> <a href="index.html">Jorzon  Delgado </a></span>
+                                </div><span> <a href="#/">Jorzon  Delgado </a></span>
                             </div>
                             <div class="item ">
                                 <ul>
