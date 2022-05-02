@@ -1,76 +1,29 @@
-@charset "UTF-8";
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+export function Header() {
+    const d=document,
+    $header=d.createElement("div") $header.classList.add('page1__header') $header.innerHTML=` <section class="section1"><div class="section1__align"><div class="section1__main"><div class="item__list"><div class="item "><div class="mobile-menu" id="menu"><div></div><div></div><div></div></div><span><a href="#/">Jorzon Delgado </a></span></div><div class="item "><ul><li><a href="#/">Proyectos</a></li><li><a href="#/about">Acerca de mí</a></li></ul></div></div></div></div></section><section class="section2" id="contentMenu"><div class="section2__align"><div class="section2__main"><div class="item__list"><div class="item"><div class="close" id="close"></div><ul><li><a href="#/">Proyectos</a></li><li><a href="#/about">Acerca de mí</a></li><li><a href="tel:+51936022870">Contactar</a></li></ul></div></div></div></div></section><section class="section3" id="bg"></section>` setTimeout(()=> {
+        const $close=d.getElementById("close"), $menu=d.getElementById("menu"), $bg=d.getElementById("bg"), $contentMenu=d.getElementById("contentMenu"), $body=d.querySelector('body') $menu.addEventListener("click", ()=> {
+            $contentMenu.classList.add("active") $bg.classList.add("active") $body.style.overflow='hidden'
+        }
+        );
+        $close.addEventListener("click", ()=> {
+            $contentMenu.classList.remove("active") $bg.classList.remove("active") $body.style.overflow='visible'
+        }
+        );
+    }
+    , 100);
+    return $header
 }
 
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+src: local("Roboto"),
+local("Roboto-Regular"),
+url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
+unicode-range: U+0460-052F,
+U+1C80-1C88,
+U+20B4,
+U+2DE0-2DFF,
+U+A640-A69F,
+U+FE2E-FE2F
 }
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");
-    unicode-range: U+1F00-1FFF
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");
-    unicode-range: U+0370-03FF
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");
-    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");
-    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local("Roboto Light"), local("Roboto-Light"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
-}
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -79,7 +32,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -88,7 +40,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");
     unicode-range: U+1F00-1FFF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -97,7 +48,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");
     unicode-range: U+0370-03FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -106,7 +56,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -115,7 +64,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -124,7 +72,6 @@
     src: local("Roboto"), local("Roboto-Regular"), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -133,7 +80,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -142,7 +88,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -151,7 +96,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");
     unicode-range: U+1F00-1FFF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -160,7 +104,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");
     unicode-range: U+0370-03FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -169,7 +112,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -178,7 +120,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -187,7 +128,6 @@
     src: local("Roboto Medium"), local("Roboto-Medium"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,7 +136,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -205,7 +144,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -214,7 +152,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");
     unicode-range: U+1F00-1FFF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -223,7 +160,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format("woff2");
     unicode-range: U+0370-03FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -232,7 +168,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format("woff2");
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -241,7 +176,6 @@
     src: local("Roboto Bold"), local("Roboto-Bold"), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
 }
-
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -251,9 +185,7 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
 }
 
-
 /* cyrillic-ext */
-
 @font-face {
     font-family: 'Pacifico';
     font-style: normal;
@@ -263,9 +195,7 @@
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-
 /* cyrillic */
-
 @font-face {
     font-family: 'Pacifico';
     font-style: normal;
@@ -275,9 +205,7 @@
     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 
-
 /* vietnamese */
-
 @font-face {
     font-family: 'Pacifico';
     font-style: normal;
@@ -287,9 +215,7 @@
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 
-
 /* latin-ext */
-
 @font-face {
     font-family: 'Pacifico';
     font-style: normal;
@@ -299,9 +225,7 @@
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-
 /* latin */
-
 @font-face {
     font-family: 'Pacifico';
     font-style: normal;
@@ -310,41 +234,34 @@
     src: url(https://fonts.gstatic.com/s/pacifico/v17/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     outline: 0;
     font-family: 'Roboto', sans-serif;
-    color: #3e3e3e
+    color: #383C47
 }
-
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #a7a7a7
 }
-
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #a7a7a7
 }
-
 ::-webkit-scrollbar-thumb {
-    background-color: #ef173b
+    background-color: #FF560A
 }
-
 html {
     margin: 0px;
     padding: 0px;
     border: 0px
 }
-
 body {
     margin: 0;
     padding: 0
 }
-
 h1,
 h2,
 h3,
@@ -354,14 +271,12 @@ h6,
 p {
     margin: 0
 }
-
 li,
 ul {
     list-style: none outside none;
     margin: 0;
     padding: 0
 }
-
 dd,
 dl,
 dt {
@@ -369,35 +284,29 @@ dt {
     margin: 0;
     padding: 0
 }
-
 table,
 td {
     border-collapse: collapse;
     margin: 0;
     padding: 0
 }
-
 img {
     border: 0 none
 }
-
 a,
 a:hover {
     outline: medium none;
     text-decoration: none
 }
-
 br {
     clear: both
 }
-
 fieldset,
 form {
     border: 0 none;
     margin: 0;
     padding: 0
 }
-
 audio,
 footer,
 header,
@@ -414,7 +323,6 @@ video {
     margin: 0;
     padding: 0
 }
-
 *,
 :after,
 :before {
@@ -422,7 +330,6 @@ video {
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
-
 .slick-slider {
     position: relative;
     display: block;
@@ -438,7 +345,6 @@ video {
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent
 }
-
 .slick-list {
     position: relative;
     display: block;
@@ -446,16 +352,13 @@ video {
     margin: 0;
     padding: 0
 }
-
 .slick-list:focus {
     outline: none
 }
-
 .slick-list.dragging {
     cursor: pointer;
     cursor: hand
 }
-
 .slick-slider .slick-list,
 .slick-slider .slick-track {
     -webkit-transform: translate3d(0, 0, 0);
@@ -464,7 +367,6 @@ video {
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0)
 }
-
 .slick-track {
     position: relative;
     top: 0;
@@ -473,66 +375,52 @@ video {
     margin-left: auto;
     margin-right: auto
 }
-
 .slick-track:after,
 .slick-track:before {
     display: table;
     content: ''
 }
-
 .slick-track:after {
     clear: both
 }
-
 .slick-loading .slick-track {
     visibility: hidden
 }
-
 .slick-slide {
     display: none;
     float: left;
     height: 100%;
     min-height: 1px
 }
-
 [dir=rtl] .slick-slide {
     float: right
 }
-
 .slick-slide img {
     display: block
 }
-
 .slick-slide.slick-loading img {
     display: none
 }
-
 .slick-slide.dragging img {
     pointer-events: none
 }
-
 .slick-initialized .slick-slide {
     display: block
 }
-
 .slick-loading .slick-slide {
     visibility: hidden
 }
-
 .slick-vertical .slick-slide {
     display: block;
     height: auto;
     border: 1px solid transparent
 }
-
 .slick-arrow.slick-hidden {
     display: none
 }
-
 .slick-loading .slick-list {
     background: #fff url("./ajax-loader.gif") center center no-repeat
 }
-
 @font-face {
     font-family: 'slick';
     font-weight: normal;
@@ -540,7 +428,6 @@ video {
     src: url("./fonts/slick.eot");
     src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg")
 }
-
 .slick-next,
 .slick-prev {
     font-size: 0;
@@ -560,7 +447,6 @@ video {
     outline: none;
     background: transparent
 }
-
 .slick-next:focus,
 .slick-next:hover,
 .slick-prev:focus,
@@ -569,19 +455,16 @@ video {
     outline: none;
     background: transparent
 }
-
 .slick-next:focus:before,
 .slick-next:hover:before,
 .slick-prev:focus:before,
 .slick-prev:hover:before {
     opacity: 1
 }
-
 .slick-next.slick-disabled:before,
 .slick-prev.slick-disabled:before {
     opacity: .25
 }
-
 .slick-next:before,
 .slick-prev:before {
     font-family: 'slick';
@@ -592,45 +475,35 @@ video {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-
 .slick-prev {
     left: -25px
 }
-
 [dir=rtl] .slick-prev {
     right: -25px;
     left: auto
 }
-
 .slick-prev:before {
     content: '←'
 }
-
 [dir=rtl] .slick-prev:before {
     content: '→'
 }
-
 .slick-next {
     right: -25px
 }
-
 [dir=rtl] .slick-next {
     right: auto;
     left: -25px
 }
-
 .slick-next:before {
     content: '→'
 }
-
 [dir=rtl] .slick-next:before {
     content: '←'
 }
-
 .slick-dotted.slick-slider {
     margin-bottom: 30px
 }
-
 .slick-dots {
     position: absolute;
     bottom: -25px;
@@ -641,7 +514,6 @@ video {
     list-style: none;
     text-align: center
 }
-
 .slick-dots li {
     position: relative;
     display: inline-block;
@@ -651,7 +523,6 @@ video {
     padding: 0;
     cursor: pointer
 }
-
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
@@ -665,17 +536,14 @@ video {
     outline: none;
     background: transparent
 }
-
 .slick-dots li button:focus,
 .slick-dots li button:hover {
     outline: none
 }
-
 .slick-dots li button:focus:before,
 .slick-dots li button:hover:before {
     opacity: 1
 }
-
 .slick-dots li button:before {
     font-family: 'slick';
     font-size: 6px;
@@ -692,16 +560,13 @@ video {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: black
 }
-
 .page {
     position: relative
 }
-
 .page .up {
     width: 38px;
     padding: 0px 0px;
@@ -712,39 +577,34 @@ video {
     right: 30px;
     display: none;
     cursor: pointer;
-    border: 1px solid #ef173b;
+    border: 1px solid #FF560A;
     -webkit-border-radius: 4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
     background: url(../images/svg/flecha-hacia-arriba_r.svg) no-repeat top 8px center #ffffff;
     background-size: 20px auto
 }
-
 @media (max-width:650px) {
     .page .up {
         right: 15px;
         bottom: 40px
     }
 }
-
 .page .up:hover {
-    background: url(../images/svg/flecha-hacia-arriba_b.svg) no-repeat top 8px center #ef173b;
+    background: url(../images/svg/flecha-hacia-arriba_b.svg) no-repeat top 8px center #FF560A;
     background-size: 20px auto
 }
-
 .page .up:hover span {
     color: #ffffff
 }
-
 .page .up span {
     font-size: 11px;
     padding-top: 38px;
     width: 100%;
-    color: #ef173b;
+    color: #FF560A;
     display: inline-block;
     text-align: center
 }
-
 .page1__header {
     background: #ffffff;
     position: -webkit-sticky;
@@ -755,11 +615,9 @@ video {
     /* -webkit-box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1) */
 }
-
 .page1__header .section1 {
     width: 100%
 }
-
 .page1__header .section1__main .item__list {
     width: 100%;
     max-width: 1400px;
@@ -787,54 +645,45 @@ video {
     -ms-flex-align: center;
     align-items: center
 }
-
 .page1__header .section1__main .item__list .item {
     width: 400px
 }
-
 @media (max-width:769px) {
     .page1__header .section1__main .item__list .item {
         width: 48%
     }
 }
-
 @media (max-width:650px) {
     .page1__header .section1__main .item__list .item {
         width: 200px
     }
 }
-
 @media (max-width:769px) {
     .page1__header .section1__main .item__list .item:last-child {
         text-align: right
     }
 }
-
 @media (max-width:769px) and (max-width:650px) {
     .page1__header .section1__main .item__list .item:last-child {
         width: auto
     }
 }
-
 .page1__header .section1__main .item__list .item ul {
     width: 100%;
     text-align: right
 }
-
 .page1__header .section1__main .item__list .item ul li {
     display: inline-block;
     padding: 8px 16px
 }
-
 .page1__header .section1__main .item__list .item ul li:hover a {
-    color: #ef173b;
+    color: #FF560A;
     -webkit-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
     font-weight: 500;
-    border-bottom: 2px solid #ef173b
+    border-bottom: 2px solid #FF560A
 }
-
 .page1__header .section1__main .item__list .item ul li a {
     display: block;
     width: 100%;
@@ -845,73 +694,61 @@ video {
     font-weight: 500;
     border-bottom: 2px solid transparent
 }
-
 .page1__header .section1__main .item__list .item ul li.active a {
     font-weight: 500;
-    color: #ef173b;
+    color: #FF560A;
     -webkit-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
-    border-bottom: 2px solid #ef173b
+    border-bottom: 2px solid #FF560A
 }
-
 .page1__header .section1__main .item__list .item ul li.active a:hover {
     -webkit-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
-    color: #bf0f2c
+    color: #E84F0A
 }
-
 @media (max-width:769px) {
     .page1__header .section1__main .item__list .item ul {
         display: none
     }
 }
-
 .page1__header .section1__main .item__list .item .mobile-menu {
     display: none;
     width: 40px;
     padding: 0 8px;
     text-align: right
 }
-
 .page1__header .section1__main .item__list .item .mobile-menu div {
     width: 100%;
     height: 2px;
-    background: #ef173b;
+    background: #FF560A;
     margin-bottom: 2px
 }
-
 .page1__header .section1__main .item__list .item .mobile-menu div:nth-child(2) {
     width: 50%
 }
-
 .page1__header .section1__main .item__list .item .mobile-menu div:nth-child(3) {
     width: 70%
 }
-
 .page1__header .section1__main .item__list .item .mobile-menu div:last-child {
     margin-bottom: 0
 }
-
 @media (max-width:769px) {
     .page1__header .section1__main .item__list .item .mobile-menu {
         display: inline-block
     }
 }
-
 .page1__header .section1__main .item__list .item span {
     display: inline-block;
     text-align: left;
     font-weight: 500
 }
-
 .page1__header .section1__main .item__list .item span a {
     font-size: 16px;
-    /* color: #ef173b;
+    /* color: #FF560A;
     font-family: 'Pacifico', cursive; */
 }
-
 .page1__header .section2 {
     width: 100%;
     z-index: 101;
@@ -923,44 +760,37 @@ video {
     top: 0;
     height: 100vh
 }
-
 .page1__header .section2.active {
     left: 0;
     -webkit-transition: 0.4s ease-out;
     -o-transition: 0.4s ease-out;
     transition: 0.4s ease-out
 }
-
 .page1__header .section2__align {
     width: 100%;
     height: 100%
 }
-
 .page1__header .section2__main {
     width: 100%;
     height: 100%
 }
-
 .page1__header .section2__main .item__list {
     width: 100%;
     height: 100%;
     position: relative
 }
-
 .page1__header .section2__main .item__list .item {
     width: 60%;
     height: 100%;
     background: #ffffff;
     position: relative
 }
-
 .page1__header .section2__main .item__list .item .close {
     width: 100%;
     height: 52px;
     position: relative;
     border-bottom: 1px solid #f5f5f5
 }
-
 .page1__header .section2__main .item__list .item .close:before {
     content: '';
     position: absolute;
@@ -971,20 +801,17 @@ video {
     background: url(../images/svg/cerrar_.svg) #ffffff center center no-repeat;
     background-size: 20px auto
 }
-
 .page1__header .section2__main .item__list .item ul {
     width: 100%;
     text-align: right;
     height: calc(100% - 52px)
 }
-
 .page1__header .section2__main .item__list .item ul li {
     display: inline-block;
     width: 100%;
     text-align: left;
     padding: 24px 32px 8px
 }
-
 .page1__header .section2__main .item__list .item ul li a {
     display: inline-block;
     text-align: center;
@@ -992,23 +819,20 @@ video {
     font-weight: 300;
     border-bottom: 2px solid transparent
 }
-
 .page1__header .section2__main .item__list .item ul li.active a {
     font-weight: 700;
-    border-bottom: 2px solid #ef173b;
-    color: #ef173b;
+    border-bottom: 2px solid #FF560A;
+    color: #FF560A;
 }
-
 .page1__header .section2__main .item__list .item ul li:last-child a {
     color: #ffffff;
     padding: 8px 16px 8px 32px;
     -webkit-border-radius: 4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
-    background: #ef173b;
+    background: #FF560A;
     position: relative
 }
-
 .page1__header .section2__main .item__list .item ul li:last-child a:before {
     content: '';
     position: absolute;
@@ -1019,46 +843,38 @@ video {
     background: url(../images/svg/celular.svg) no-repeat;
     background-size: 10px auto
 }
-
 .page1__header .section2__main .item__list .item .mobile-menu {
     display: none;
     width: 40px;
     padding: 0 8px;
     text-align: right
 }
-
 .page1__header .section2__main .item__list .item .mobile-menu div {
     width: 100%;
     height: 2px;
-    background: #ef173b;
+    background: #FF560A;
     margin-bottom: 2px
 }
-
 .page1__header .section2__main .item__list .item .mobile-menu div:nth-child(2) {
     width: 50%
 }
-
 .page1__header .section2__main .item__list .item .mobile-menu div:nth-child(3) {
     width: 70%
 }
-
 .page1__header .section2__main .item__list .item .mobile-menu div:last-child {
     margin-bottom: 0
 }
-
 @media (max-width:769px) {
     .page1__header .section2__main .item__list .item .mobile-menu {
         display: inline-block
     }
 }
-
 .page1__header .section2__main .item__list .item span {
     font-size: 16px;
     display: block;
     text-align: left;
     font-weight: 700
 }
-
 .page1__header .section3 {
     width: 100%;
     background: #00000075;
@@ -1076,7 +892,6 @@ video {
     -o-transition-delay: .1s;
     transition-delay: .1s
 }
-
 .page1__header .section3.active {
     opacity: 1;
     -webkit-transition: .4s ease-out 0.6s;
@@ -1086,26 +901,22 @@ video {
     -o-transition-delay: .2s;
     transition-delay: .2s
 }
-
 @media (max-width:1025px) {
     .page .page1__main .section1__main {
         height: calc(100vh - 127px);
         padding: 0 24px;
     }
 }
-
 @media (max-width:769px) {
     .page .page1__main .section1__main {
         height: calc(100vh - 146px)
     }
 }
-
 @media (max-width:650px) {
     .page .page1__main .section1__main {
         height: auto
     }
 }
-
 .page .page1__main .section1__main .item__list {
     width: 100%;
     max-width: 1100px;
@@ -1127,16 +938,13 @@ video {
     justify-content: space-between;
     -ms-flex-pack: space-between;
 }
-
 #main {
     min-height: 600px;
 }
-
 .page1__footer {
     border-top: 1px solid #f5f5f5;
     /* background: #f0f0f0; */
 }
-
 .page1__footer .section1__main .item__list {
     width: 100%;
     padding: 8px 24px;
@@ -1164,56 +972,46 @@ video {
     -ms-flex-align: center;
     align-items: center
 }
-
 @media (max-width:769px) {
     .page1__footer .section1__main .item__list {
         padding-top: 16px;
         padding-bottom: 16px
     }
 }
-
 .page1__footer .section1__main .item__list .item {
     width: 400px
 }
-
 @media (max-width:769px) {
     .page1__footer .section1__main .item__list .item {
         width: 100%
     }
 }
-
 .page1__footer .section1__main .item__list .item ul {
     width: 100%
 }
-
 @media (max-width:769px) {
     .page1__footer .section1__main .item__list .item ul {
         text-align: center
     }
 }
-
 .page1__footer .section1__main .item__list .item ul li {
     display: inline-block;
     width: 38px;
     padding: 8px;
     text-align: center
 }
-
 .page1__footer .section1__main .item__list .item ul li a {
     display: block
 }
-
 .page1__footer .section1__main .item__list .item ul li a img {
     width: 100%
 }
-
 .page1__footer .section1__main .item__list .item span {
     font-size: 13px;
     display: block;
     text-align: right;
     font-weight: 300
 }
-
 @media (max-width:769px) {
     .page1__footer .section1__main .item__list .item span {
         text-align: center

@@ -161,7 +161,7 @@ export function Card(props) {
         -webkit-border-radius: 4px 4px 4px 4px;
         -moz-border-radius: 4px 4px 4px 4px;
         border-radius: 4px 4px 4px 4px;
-        background: #ef173b;
+        background: #FF560A;
         display: inline-block;
         color: #ffffff;
         position: relative;
@@ -183,7 +183,7 @@ export function Card(props) {
     }
     
     .page1__main   .item__info span:hover {
-        background: #bf0f2c;
+        background: #E84F0A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out

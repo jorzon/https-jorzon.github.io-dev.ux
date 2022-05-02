@@ -202,7 +202,7 @@ export function About() {
         -webkit-border-radius: 4px 4px 4px 4px;
         -moz-border-radius: 4px 4px 4px 4px;
         border-radius: 4px 4px 4px 4px;
-        background: #ef173b
+        background: #FF560A
     }
     
     .page3__main .section1__main .item__list .item__link span:last-child {
@@ -217,14 +217,14 @@ export function About() {
     }
     
     .page3__main .section1__main .item__list .item__link span:hover {
-        background: #bf0f2c;
+        background: #E84F0A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out
     }
     
     .page3__main .section1__main .item__list .item__link span.type2 {
-        border: 1px solid #ef173b;
+        border: 1px solid #FF560A;
         background: none;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
@@ -232,7 +232,7 @@ export function About() {
     }
     
     .page3__main .section1__main .item__list .item__link span.type2:hover {
-        background: #ef173b;
+        background: #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out
@@ -251,7 +251,7 @@ export function About() {
     }
     
     .page3__main .section1__main .item__list .item__link span.type2 a {
-        color: #ef173b;
+        color: #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out
@@ -321,7 +321,7 @@ export function About() {
                 <p>Me llamo Jorzon, soy <span> 🔥Developer Frontend & UI🔥, </span>  con más de 3 años de experiencia, en el desarrollo de <span>⚡plataformas e interfaces⚡. </span>  Estoy en constante aprendizaje sobre las nuevas tecnológias. Estoy disponible para diferentes propuestas, mientras represente un reto y apoye mi crecimiento profesional.	</p>
                 <p>Me gusta jugar futbol ⚽ los fines de semana, jugar en la pc juegos de ps1🎮, ver mucho nexflit y me encanta viajar ✈🌄️.</p>
                 </div>
-                <div class="item__link"><span class="type2"><a href="https://jorzon.github.io/port/assets/files/JorzonDelgadoCv.pdf" download>Descargar cv</a></span><span><a href="https://api.whatsapp.com/send?phone=+51936022870&amp;text=Hola" target="_blank">Conversemos</a></span></div>
+                <div class="item__link"><span class="type2"><a href="app/assets/files/JorzonDelgadoCv.pdf" download>Descargar cv</a></span><span><a href="https://api.whatsapp.com/send?phone=+51936022870&amp;text=Hola" target="_blank">Conversemos</a></span></div>
             </div>
             </div>
         </div>

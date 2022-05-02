@@ -21,7 +21,7 @@ export function CardDetail(props) {
         width: 150px;
         height: 48px;
         background: transparent;
-        border: 1px solid #ef173b;
+        border: 1px solid #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
@@ -45,7 +45,7 @@ export function CardDetail(props) {
     }
     
     .page2__main .section1__main .item__btn span:hover {
-        background: #ef173b;
+        background: #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
@@ -80,7 +80,7 @@ export function CardDetail(props) {
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
         line-height: 48px;
-        color: #ef173b
+        color: #FF560A
     }
     
     .page2__main .section1__main .item__list {
@@ -117,7 +117,7 @@ export function CardDetail(props) {
         background-size: 20px;
         margin: auto;
         border-radius: 50%;
-        border: 1px solid #333333
+        border: 1px solid #383C47333
     }
     
     @media (max-width:769px) {
@@ -182,7 +182,7 @@ export function CardDetail(props) {
         font-size: 24px;
         font-weight: 500;
         text-transform: uppercase;
-        color: #ef173b
+        color: #FF560A
     }
     
     @media (max-width:769px) {
@@ -255,7 +255,7 @@ export function CardDetail(props) {
         font-size: 20px;
         margin-bottom: 8px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         text-transform: capitalize
     }
     
@@ -374,8 +374,8 @@ export function CardDetail(props) {
     .page2__main .section4__header .item__list .item__info h2 {
         font-size: 24px;
         font-weight: 500;
-        color: #3e3e3e;
-        color: #ef173b;
+        color: #383C47;
+        color: #FF560A;
         margin-bottom: 8px;
         text-transform: uppercase
     }
@@ -442,7 +442,7 @@ export function CardDetail(props) {
     }
     
     .page2__main .section4__header .item__list .item__question h2 {
-        color: #ef173b;
+        color: #FF560A;
         font-weight: 600;
         font-size: 50px;
         margin-bottom: 8px
@@ -563,7 +563,7 @@ export function CardDetail(props) {
     .page2__main .section4__main .item__list .item__info h2 {
         font-size: 20px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         margin-bottom: 8px
     }
     
@@ -634,8 +634,8 @@ export function CardDetail(props) {
     .page2__main .section5__header .item__list .item__info h2 {
         font-size: 24px;
         font-weight: 500;
-        color: #3e3e3e;
-        color: #ef173b;
+        color: #383C47;
+        color: #FF560A;
         margin-bottom: 8px;
         text-transform: uppercase
     }
@@ -704,7 +704,7 @@ export function CardDetail(props) {
     .page2__main .section5__header .item__list .item__user p {
         font-size: 16px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         margin-bottom: 16px
     }
     
@@ -755,7 +755,7 @@ export function CardDetail(props) {
     .page2__main .section5__header .item__list .item__user .user__name h2 {
         font-size: 64px;
         font-weight: 600;
-        color: #ef173b
+        color: #FF560A
     }
     
     @media (max-width:769px) {
@@ -774,7 +774,7 @@ export function CardDetail(props) {
     .page2__main .section5__header .item__list .item__user .user__name h3 {
         font-size: 50px;
         font-weight: 500;
-        color: #3e3e3e
+        color: #383C47
     }
     
     @media (max-width:769px) {
@@ -950,7 +950,7 @@ export function CardDetail(props) {
     .page2__main .section5__main .item__list .item__info h2 {
         font-size: 20px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         margin-bottom: 8px
     }
     
@@ -1021,8 +1021,8 @@ export function CardDetail(props) {
     .page2__main .section6__header .item__list .item__info h2 {
         font-size: 24px;
         font-weight: 500;
-        color: #3e3e3e;
-        color: #ef173b;
+        color: #383C47;
+        color: #FF560A;
         margin-bottom: 8px;
         text-transform: uppercase
     }
@@ -1120,7 +1120,7 @@ export function CardDetail(props) {
     .page2__main .section6__main .item__list .item__info h2 {
         font-size: 16px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         margin-bottom: 8px
     }
     
@@ -1194,8 +1194,8 @@ export function CardDetail(props) {
     .page2__main .section7__header .item__list .item__info h2 {
         font-size: 24px;
         font-weight: 500;
-        color: #3e3e3e;
-        color: #ef173b;
+        color: #383C47;
+        color: #FF560A;
         margin-bottom: 8px;
         text-transform: uppercase
     }
@@ -1292,7 +1292,7 @@ export function CardDetail(props) {
     .page2__main .section7__main .item__list .item__info h2 {
         font-size: 16px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         text-align: center
     }
     
@@ -1345,8 +1345,8 @@ export function CardDetail(props) {
     .page2__main .section8__header .item__list .item__info h2 {
         font-size: 24px;
         font-weight: 500;
-        color: #3e3e3e;
-        color: #ef173b;
+        color: #383C47;
+        color: #FF560A;
         margin-bottom: 8px;
         text-transform: uppercase
     }
@@ -1452,7 +1452,7 @@ export function CardDetail(props) {
         font-size: 16px;
         font-weight: 500;
         margin-bottom: 4px;
-        color: #3e3e3e;
+        color: #383C47;
         text-align: center
     }
     
@@ -1471,7 +1471,7 @@ export function CardDetail(props) {
     .page2__main .section8__main .item__list .item__info h3 {
         font-size: 22px;
         font-weight: 600;
-        color: #ef173b;
+        color: #FF560A;
         text-align: center
     }
     
@@ -1522,7 +1522,7 @@ export function CardDetail(props) {
     
     .page2__main .section9__header .item__list .item__info h2 {
         font-size: 24px;
-        color: #ef173b;
+        color: #FF560A;
         font-weight: 500;
         margin-bottom: 8px;
         text-transform: uppercase
@@ -1620,7 +1620,7 @@ export function CardDetail(props) {
     .page2__main .section9__main .item__list .item__info h2 {
         font-size: 16px;
         font-weight: 500;
-        color: #3e3e3e;
+        color: #383C47;
         text-align: center
     }
     
@@ -1652,7 +1652,7 @@ export function CardDetail(props) {
         width: 150px;
         height: 48px;
         background: transparent;
-        border: 1px solid #ef173b;
+        border: 1px solid #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
@@ -1676,7 +1676,7 @@ export function CardDetail(props) {
     }
     
     .page2__main .section9__main .item__btn span:hover {
-        background: #ef173b;
+        background: #FF560A;
         -webkit-transition: 0.3s ease-out;
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
@@ -1711,7 +1711,7 @@ export function CardDetail(props) {
         -o-transition: 0.3s ease-out;
         transition: 0.3s ease-out;
         line-height: 48px;
-        color: #ef173b
+        color: #FF560A
     }
     `
 
